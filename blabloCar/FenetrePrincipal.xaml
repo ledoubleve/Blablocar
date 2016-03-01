@@ -1,0 +1,67 @@
+﻿<Window x:Class="blabloCar.fenetrePrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:blabloCar"
+        mc:Ignorable="d"
+        Title="BlabloCar" Height="500" Width="900">
+
+    <Window.Resources>
+        <DataTemplate x:Key="listeVilleDepart">
+            <TextBlock Text="{Binding nom_Ville}" Width="Auto" Height="Auto" />
+        </DataTemplate>
+        
+        <!-- data template de la liste des trajets selon les critères de rechercher -->
+        <DataTemplate x:Key="listeTrajet">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Départ : " Width="auto" Height="auto" />
+                <TextBlock Text="{Binding heureDepart, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                <!-- <TextBlock Text="Arrivée : " Width="auto" Height="auto" />
+                <TextBlock Text="{Binding villearrivee}" /> -->
+                
+            </StackPanel>
+        </DataTemplate>
+        
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="480" />
+        </Grid.RowDefinitions>
+
+        <TabControl  Grid.ColumnSpan="2" Background="#FFE5E2E2">
+            <TabItem Header="Trajet">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="600"/>
+                        <ColumnDefinition Width="300"/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox x:Name="listeTrajet" Grid.Column="0" Background="#FFBEB4B4" SelectionChanged="listeTrajet_SelectionChanged" ItemTemplate="{StaticResource listeTrajet}" ItemsSource="{Binding UpdateSourceTrigger=Default}"/>
+
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="0,20,0,0" HorizontalAlignment="Center" Grid.Column="1">
+                        <TextBlock Text="Ville de départ" Width="150" TextAlignment="Center"/>
+                        <ComboBox x:Name="VilleDepart" Width="100" Margin="0,0,0,15" ItemTemplate="{StaticResource listeVilleDepart}" ItemsSource="{Binding}"/>
+                        <TextBlock Text="Ville d'arrivée" Width="150" TextAlignment="Center" />
+                        <ComboBox x:Name="VilleArrivee" Width="100" Margin="0,0,0,40" ItemTemplate="{StaticResource listeVilleDepart}" ItemsSource="{Binding}"/>
+                        <Button Content="Rechercher" Width="100" x:Name="rechercheTrajet" Click="rechercheTrajet_Click" />
+                        
+                        <!-- Group box des détail du trajet avec la possibilité de le rejoindre -->
+                        <GroupBox x:Name="detailTrajet" Header="Détail du trajet" Margin="0,50,0,0" Width="250" Height="210" BorderBrush="#FF26292B" Background="#FFF5F2F2">
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                <TextBlock Text="Départ : " Width="auto" Height="auto" />
+                                <TextBlock x:Name="villeDep" Width="auto" Height="auto" Margin="5,0,0,0" />
+                            </StackPanel>
+                           
+                            
+                        </GroupBox>
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Compte">
+
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

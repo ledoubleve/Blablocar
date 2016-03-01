@@ -1,0 +1,24 @@
+c:\users\nicolas\documents\visual studio 2015\Projects\blabloCar\blabloCar\bin\Debug\blabloCar.exe.config
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar.csprojResolveAssemblyReference.cache
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\MainWindow.g.cs
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\App.g.cs
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar_MarkupCompile.cache
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar_MarkupCompile.lref
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\bin\Debug\blabloCar.exe
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\bin\Debug\blabloCar.pdb
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\bin\Debug\MySql.Data.dll
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\bin\Debug\MySql.Data.Entity.dll
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\bin\Debug\MySql.Web.dll
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\MainWindow.baml
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar.g.resources
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar.Properties.Resources.resources
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar.csproj.GenerateResource.Cache
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar.exe
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\blabloCar.pdb
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\fenetrePrincipal.g.cs
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\fenetrePrincipal.baml
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\Window1.g.cs
+C:\Users\nicolas\Documents\Visual Studio 2015\Projects\blabloCar\blabloCar\obj\Debug\Window1.baml
+G:\blabloCar\blabloCar\bin\Debug\blabloCar.exe.config
+G:\blabloCar\blabloCar\obj\Debug\blabloCar.exe
+G:\blabloCar\blabloCar\obj\Debug\blabloCar.pdb

@@ -1,0 +1,30 @@
+﻿<Window x:Class="blabloCar.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:blabloCar"
+        mc:Ignorable="d"
+        Title="Inscription" Height="400" Width="300">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Nom" Width="100" TextAlignment="Center"/>
+        <TextBox x:Name="nomPersonne" Width="100" Margin="0,0,0,10" />
+        
+        <TextBlock Text="Prénom" Width="100" TextAlignment="Center"/>
+        <TextBox x:Name="prenomPersonne" Width="100" Margin="0,0,0,10" />
+
+        <TextBlock Text="Mail" Width="100" TextAlignment="Center"/>
+        <TextBox x:Name="mailPersonne" Width="100" Margin="0,0,0,10" />
+
+        <TextBlock Text="Mot de passe" Width="100" TextAlignment="Center"/>
+        <PasswordBox x:Name="passwdPersonne" Width="100" Margin="0,0,0,10" />
+
+        <TextBlock Text="Mot de passe" Width="100" TextAlignment="Center"/>
+        <PasswordBox x:Name="secondPasswdPersonne" Width="100" Margin="0,0,0,10" />
+        
+        <TextBlock Text="Telephone" Width="100" TextAlignment="Center"/>
+        <TextBox x:Name="telPersonne" Width="100" Margin="0,0,0,10" />
+
+        <Button x:Name="bouton_inscrire" Content="s'inscrire" Width="100" Margin="0,15,0,0" Click="bouton_inscrire_Click" />
+    </StackPanel>
+</Window>

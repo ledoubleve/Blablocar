@@ -1,0 +1,27 @@
+﻿<Window x:Class="blabloCar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:blabloCar"
+        mc:Ignorable="d"
+        Title="Connexion" Height="350" Width="525">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF949435" Offset="0.004"/>
+            <GradientStop Color="White" Offset="1"/>
+            <GradientStop Color="#FF96984A" Offset="1"/>
+            <GradientStop Color="#FFB3B34F" Offset="0.063"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="BlabloCar" FontSize="20" TextAlignment="Center" Margin="0,0,0,20" />
+        <TextBlock Text="Votre e-mail" TextAlignment="Center" />
+        <TextBox x:Name="email" Width="200" Height="20" />
+        <TextBlock Text="Votre Mot de passe" TextAlignment="Center" Margin="0,10,0,0" />
+        <PasswordBox x:Name="mdp" Width="200" Height="20" />
+        <Button x:Name="connexion" Width="90" Margin="0,15,0,0" Content="Connexion" Click="connexion_Click" />
+        <Button x:Name="inscription" Width="90" Margin="0,15,0,0" Content="Inscription" Click="inscription_Click"/>
+    </StackPanel>
+</Window>
